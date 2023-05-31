@@ -53,7 +53,7 @@
 
 - ✔ 개발기간: 2023/04/10 - 2023/05/26 (7주)
 
-- ✔ 개발인원: 곽민주 성예빈 김도윤 고명진 김성환 이상훈 (6인)
+- ✔ 개발인원: 고명진 곽민주 김도윤 김성환 성예빈 이상훈 (6인)
 
 - ✔ 사용 기술스택: Springboot Django ReactNative Docker AWS +
 
@@ -177,17 +177,24 @@
 ## 9. 팀원 소개
 
 <table>
-  <tr> 
-    <td align="center"><a href="https://github.com/skyju"><img src="https://avatars.githubusercontent.com/u/77267141?v=4?s=100" width="100px;" alt=""/><br /><sub><b>곽민주</b></sub></a><br /></td>      
-    <td align="center"><a href="https://github.com/DooDoo3804"><img src="https://avatars.githubusercontent.com/u/109324603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>김도윤</b></sub></a><br /></td>     
-    <td align="center"><a href="https://github.com/e-bing"><img src="https://avatars.githubusercontent.com/u/91499112?v=4?s=100" width="100px;" alt=""/><br /><sub><b>성예빈</b></sub></a><br /></td>
+  <tr>
     <td align="center"><a href="https://github.com/m0jinaa"><img src="https://avatars.githubusercontent.com/u/96249562?v=4" width="100px;" alt=""/><br /><sub><b>고명진</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/skyju"><img src="https://avatars.githubusercontent.com/u/77267141?v=4?s=100" width="100px;" alt=""/><br /><sub><b>곽민주</b></sub></a><br /></td>      
+    <td align="center"><a href="https://github.com/DooDoo3804"><img src="https://avatars.githubusercontent.com/u/109324603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>김도윤</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/fanngineer"><img src="https://avatars.githubusercontent.com/u/109322241?v=4?s=100" width="100px;" alt=""/><br /><sub><b>김성환</b></sub></a><br /></td>     
+    <td align="center"><a href="https://github.com/e-bing"><img src="https://avatars.githubusercontent.com/u/91499112?v=4?s=100" width="100px;" alt=""/><br /><sub><b>성예빈</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/GoldenRetriever-93"><img src="https://avatars.githubusercontent.com/u/109256192?v=4?s=100" width="100px;" alt=""/><br /><sub><b>이상훈</b></sub></a><br /></td>
-	<td align="center"><a href="https://github.com/fanngineer"><img src="https://avatars.githubusercontent.com/u/109322241?v=4?s=100" width="100px;" alt=""/><br /><sub><b>김성환</b></sub></a><br /></td>
+	
   </tr>
 </table>
 
 
+### ✔ 고명진
+
+- Java 및 SpringBoot를 활용한 Backend REST API 서버 구현
+- QueryDsl을 사용한 통계 처리
+- Business 서버 Database 구현
+- 뱃지 수여를 위한 MySQL trigger 작성
 
 ### ✔ 곽민주
 
@@ -209,6 +216,17 @@
 - Openai GPT-3.5 model 적용
 - 포팅 매뉴얼 문서화
 
+### ✔ 김성환
+
+- Springboot를 활용한 REST API 서버 구현
+-  MongoDB Chatting Database 구축
+-  Chatting 기능 관련 로직 구현
+- 텍스트 기반 입력 데이터 판별을 거친 감정 분석 서버 API 호출
+-  JWT, Spring Security를 통한 인증/인가
+- Redis를 활용한 refresh token 관리
+- Main DB 구조 설계
+
+
 ### ✔ 성예빈
 
 - Frontend 개발 환경 세팅 (React Native, TypeScript, Styled Component, Android Studio)
@@ -221,13 +239,6 @@
 - 랜딩, 회원 가입, 홈 화면, 전체 통계, 마이페이지, 회원 정보 수정, 활동 배지 화면 구성
 - Figma 활용 와이어프레임 구성, 로고 및 아이콘 디자인
 
-### ✔ 고명진
-
-- Java 및 SpringBoot를 활용한 Backend REST API 서버 구현
-- QueryDsl을 사용한 통계 처리
-- Business 서버 Database 구현
-- 뱃지 수여를 위한 MySQL trigger 작성
-
 ### ✔ 이상훈
 
 - Spring Boot rest api를 활용하여 billing 서버 구축
@@ -236,9 +247,4 @@
 - Kakao 정기결제 api를 활용한 결제 기능 구현
 - cloudwatch를 이용한 통합 로그 분석 
 
-### ✔ 김성환
 
-- Springboot를 활용한 REST API 서버 구현
--  MongoDB Chatting Database 구축
--  Chatting 기능 관련 로직 구현
--  JWT, Spring Security를 통한 인증/인가
